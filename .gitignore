@@ -1,0 +1,34 @@
+.DS_Store
+Thumbs.db
+*.o
+*.obj
+*.exe
+*.elf
+*.bin
+*.hex
+*.map
+*.csv
+*.png
+__pycache__/
+.venv/
+host/.venv/
+firmware/**/Debug/
+firmware/**/Release/
+.vscode/
+*.ioc.bak
+
+# STM32CubeIDE / Eclipse
+.metadata/
+.settings/
+**/Debug/
+**/Release/
+*.launch
+*.mxproject
+
+# Python
+*.pyc
+.pytest_cache/
+
+# Local secrets
+.env
+*.local
